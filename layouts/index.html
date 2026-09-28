@@ -1,0 +1,116 @@
+{{ define "main" }}
+
+<section class="hero">
+    <div class="hero-content">
+
+        <p class="eyebrow">
+            AMATEUR RADIO · TECHNOLOGY · EXPERIMENTS
+        </p>
+
+        <h1>
+            ON3EFI<br>
+            <span>Radio Lab</span>
+        </h1>
+
+        <p class="hero-subtitle">
+            {{ .Site.Params.subtitle }}
+        </p>
+
+        <p class="hero-text">
+            A personal laboratory for amateur radio, Linux,
+            electronics, old hardware and hands-on experimentation.
+        </p>
+
+        <div class="hero-buttons">
+            <a class="button button-primary" href="{{ "/projects/" | relURL }}">
+                Explore projects
+            </a>
+
+            <a class="button button-secondary" href="{{ "/about/" | relURL }}">
+                About ON3EFI
+            </a>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="section">
+
+    <div class="section-heading">
+        <p class="eyebrow">EXPLORE THE LAB</p>
+        <h2>What's happening in the lab?</h2>
+    </div>
+
+    <div class="card-grid">
+
+        <a class="card" href="{{ "/radio/" | relURL }}">
+            <div class="card-number">01</div>
+            <h3>Radio</h3>
+            <p>
+                Amateur radio, equipment, the shack,
+                HAREC and radio experiments.
+            </p>
+            <span class="card-link">Enter the radio lab →</span>
+        </a>
+
+
+        <a class="card" href="{{ "/projects/" | relURL }}">
+            <div class="card-number">02</div>
+            <h3>Projects</h3>
+            <p>
+                Antennas, SVXLink, electronics,
+                DIY experiments and things that need testing.
+            </p>
+            <span class="card-link">View projects →</span>
+        </a>
+
+
+        <a class="card" href="{{ "/linux/" | relURL }}">
+            <div class="card-number">03</div>
+            <h3>Linux</h3>
+            <p>
+                Ubuntu, Linux Mint, ThinkPads,
+                Android, LineageOS and old hardware.
+            </p>
+            <span class="card-link">Explore Linux →</span>
+        </a>
+
+
+        <a class="card" href="{{ "/logbook/" | relURL }}">
+            <div class="card-number">04</div>
+            <h3>Logbook</h3>
+            <p>
+                Experiments, discoveries, notes,
+                successes, failures and things learned.
+            </p>
+            <span class="card-link">Open the logbook →</span>
+        </a>
+
+    </div>
+</section>
+
+
+<section class="equipment-section">
+
+    <div class="equipment-content">
+
+        <p class="eyebrow">THE SHACK</p>
+
+        <h2>Radio equipment</h2>
+
+        <p>
+            A growing collection of handheld radios,
+            antennas, audio equipment and accessories
+            used for learning and experimentation.
+        </p>
+
+        <a class="text-link" href="{{ "/radio/equipment/" | relURL }}">
+            View equipment →
+        </a>
+
+    </div>
+
+</section>
+
+{{ end }}

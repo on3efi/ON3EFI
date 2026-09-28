@@ -1,0 +1,6 @@
+baseURL = 'https://on3efi.github.io/'
+languageCode = 'en'
+title = 'ON3EFI Radio Lab'
+
+[params]
+  subtitle = 'Amateur radio · Linux · Experiments · Learning'
