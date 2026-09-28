@@ -1,6 +1,5 @@
 ---
 title: "About"
-
 ---
 
 ## About ON3EFI
